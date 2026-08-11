@@ -12,6 +12,8 @@
 
 DHCP/DNSの派生元は、Raspberry Pi公式pico-examplesのコミット`eed0c298202ddbdc3aadb386abedb71ae528e5fb`です。DHCP付属LICENSEはコミット`1c5d9aa567598e6e3eadf6d7f2d8a9342b44dab4`、pico-examplesルートLICENSE.TXTはコミット`46078742c7f8dea8b5a0998c73b38ff970fb1b64`の原文を確認しました。収録DHCPコードには再接続時の要求IP補完、ホスト名・送受信診断ログ、初期化結果の返却を追加しています。DNSコードの差分は未使用引数警告の抑制です。元の著作権・ライセンスヘッダーは変更していません。
 
+`BSD-3-Clause.txt`とPico SDK付属LICENSEの冒頭にある`Copyright 2020 (c) 2020 Raspberry Pi (Trading) Ltd.`は、年が重複して見えますがRaspberry Pi公式原文の表記です。このリポジトリでは訂正せず、一字一句そのまま収録しています。
+
 KiCadフットプリントは、公式コミット`18227ee1af2680cab46c6ed908dd53e9272a6116`の同名ファイルと比較し、2個のkeep-out zoneから`F.Paste`と`B.Paste`を除いた差分だけであることを確認しました。詳細は同ディレクトリの`NOTICE`を参照してください。
 
 KiCadフットプリントの形状はRaspberry Pi Pico W/Pico 2 W公式寸法資料を参照しています。Raspberry Piの名称、商標、データシート、製品設計に対する権利は各権利者に帰属し、このリポジトリのライセンス対象ではありません。
