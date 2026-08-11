@@ -1,0 +1,9 @@
+/build/
+**/*-backups/
+**/*.kicad_prl
+**/*.lck
+**/__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example

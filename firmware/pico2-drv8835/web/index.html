@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111418">
+  <title>Planar Stepper Jog</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div><p class="eyebrow">PICO 2 W / DRV8835</p><h1>Planar Stepper</h1></div>
+      <span id="connection" class="connection offline">切断</span>
+    </header>
+    <section class="position" aria-label="現在位置">
+      <div><span>X</span><strong id="x-position">0.0000</strong><small>mm</small></div>
+      <div><span>Y</span><strong id="y-position">0.0000</strong><small>mm</small></div>
+      <div><span>Z</span><strong id="z-position">1.0000</strong><small>mm</small></div>
+    </section>
+    <section class="status-row" aria-live="polite">
+      <span id="motion-state">待機</span><span id="output-state">出力 Hi-Z</span><span id="last-result">ready</span>
+    </section>
+    <section class="status-row drive-row" aria-live="polite">
+      <span id="drive-state">確実動作 U1 / 捕捉100ms</span><span id="phase-state">相: X A+ / Y C+</span>
+    </section>
+    <section class="controls" aria-label="ジョグ操作">
+      <div class="dpad">
+        <button class="jog up" data-axis="Y" data-direction="-1" aria-label="Yマイナス">▲</button>
+        <button class="jog left" data-axis="X" data-direction="1" aria-label="Xプラス">◀</button>
+        <button id="stop" class="stop" aria-label="即時停止">■</button>
+        <button class="jog right" data-axis="X" data-direction="-1" aria-label="Xマイナス">▶</button>
+        <button class="jog down" data-axis="Y" data-direction="1" aria-label="Yプラス">▼</button>
+      </div>
+    </section>
+    <section class="pen-controls" aria-label="ペン上下">
+      <button id="pen-up" type="button">▲ ペン上</button>
+      <button id="pen-down" type="button">▼ ペン下</button>
+      <span id="pen-state">上 / 1000µs</span>
+    </section>
+    <section class="settings" aria-label="移動設定">
+      <label for="drive-mode">駆動モード</label>
+      <select id="drive-mode">
+        <option value="1" selected>確実動作 U1（単相）</option>
+        <option value="8">滑らか動作 U8（実験）</option>
+      </select>
+      <fieldset>
+        <legend>移動量</legend>
+        <div class="segments">
+          <button data-distance="0.3125">0.3125</button><button data-distance="0.625">0.625</button>
+          <button class="selected" data-distance="2.5">2.5</button><button data-distance="10">10</button>
+        </div>
+      </fieldset>
+      <label for="feed">Feed <output id="feed-value">300</output> mm/min</label>
+      <input id="feed" type="range" min="30" max="1000" step="10" value="300">
+      <label class="mode-toggle" for="active-only">
+        <span><strong>移動軸だけ励磁</strong><small>X/Y単独移動時の電流を片軸へ集中</small></span>
+        <input id="active-only" type="checkbox" checked>
+      </label>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

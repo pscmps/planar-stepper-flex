@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "OfficialKiCadLocal")(type "KiCad")(uri "${KIPRJMOD}/footprints/official-kicad")(options "")(descr "KiCad 10 official Pico footprint copy"))
+)
