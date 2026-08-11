@@ -7,6 +7,7 @@
 *.kicad_pcb text eol=lf
 *.kicad_pro text eol=lf
 *.kicad_mod text eol=lf
+LICENSES/*.txt text eol=lf whitespace=-blank-at-eof
 *.png binary
 *.zip binary
 *.uf2 binary

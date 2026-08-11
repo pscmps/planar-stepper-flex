@@ -100,7 +100,7 @@ precedence = "override"
 SPDX-FileCopyrightText = [
     "2026 pscmps",
     "2020 Raspberry Pi (Trading) Ltd.",
-    "2012-2026 Ha Thach (tinyusb.org)",
+    "2018 hathach (tinyusb.org)",
 ]
 SPDX-License-Identifier = "MIT AND LicenseRef-Raspberry-Pi-Pico-SDK-BSD-3-Clause AND LicenseRef-TinyUSB-MIT"
 
@@ -112,7 +112,7 @@ SPDX-FileCopyrightText = [
     "2020 Raspberry Pi (Trading) Ltd.",
     "2019-2022 George Robotics Pty Ltd",
     "2001-2002 Swedish Institute of Computer Science",
-    "2012-2026 Ha Thach (tinyusb.org)",
+    "2018 hathach (tinyusb.org)",
     "2018-2019 Damien P. George",
 ]
 SPDX-License-Identifier = "MIT AND BSD-3-Clause AND LicenseRef-Raspberry-Pi-Pico-SDK-BSD-3-Clause AND LicenseRef-lwIP-BSD-3-Clause AND LicenseRef-TinyUSB-MIT AND LicenseRef-MicroPython-MIT AND LicenseRef-CYW43-Raspberry-Pi"

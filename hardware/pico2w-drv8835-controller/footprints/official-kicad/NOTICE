@@ -3,12 +3,14 @@ RaspberryPi_Pico_W_SMD_HandSolder.kicad_mod
 Source:
   KiCad official footprint library, Module.pretty
   https://gitlab.com/kicad/libraries/kicad-footprints
+  Compared against commit 18227ee1af2680cab46c6ed908dd53e9272a6116.
 
 Upstream license:
   Creative Commons Attribution-ShareAlike 4.0 International with the
   KiCad libraries exception.
   See ../../../../LICENSES/LicenseRef-KiCad-Libraries.txt from the
-  repository root. It includes the KiCad exception and full CC BY-SA 4.0 text.
+  repository root. This is an unmodified copy of the KiCad library
+  LICENSE.md; it links to the official CC BY-SA 4.0 legal code.
 
 Modification notice:
   Modified in 2026 for Planar Stepper Flex by pscmps.

@@ -49,6 +49,15 @@ Pico 2 W Wi-Fi版UF2に含まれる`cyw43-driver`は`LicenseRef-CYW43-Raspberry-
 
 正式な対応表は[`REUSE.toml`](REUSE.toml)にも記載しています。第三者ファイルを含め、対象ごとの情報を`precedence = "override"`で一意にしています。ソース内の著作権・ライセンス表示も維持しています。
 
+## ライセンス本文の出典
+
+- `CERN-OHL-P-2.0.txt`: Open Hardware Repositoryが配布する`cern_ohl_p_v2.txt`の原文
+- `CC-BY-4.0.txt`: Creative Commons公式`https://creativecommons.org/licenses/by/4.0/legalcode.txt`の原文
+- `MIT.txt`: 標準MIT本文へ、このプロジェクトの実際の表示`Copyright (c) 2026 pscmps`を記載
+- 第三者ライセンス: [第三者通知](THIRD_PARTY_NOTICES.md)に記録した各依存元の付属ファイルから複製
+
+`LICENSES/`にはSPDXテンプレート用の`<<var;...>>`、`<<beginOptional...>>`、`<year>`などを含めません。監査済み原文の改変とプレースホルダー再混入は`scripts/check-license-scope.py`で検出します。
+
 ## 使用報告
 
 この設計を使って何か作った場合、作品や写真を教えていただけると嬉しいです。使用報告や連絡は必須ではありません。

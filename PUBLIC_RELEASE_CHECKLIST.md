@@ -4,6 +4,8 @@
 - [x] プロジェクト独自ソフトウェアを`MIT`に決定した
 - [x] プロジェクト独自文書・画像を`CC-BY-4.0`に決定した
 - [x] `LICENSES/`へ正式本文と第三者ライセンス通知を収録した
+- [x] `LICENSES/`からSPDXテンプレート変数と未展開プレースホルダーを除去した
+- [x] Pico SDK、lwIP、TinyUSB、cyw43-driver、pico-examples、KiCadの実依存元と本文を照合した
 - [x] `REUSE.toml`と`RIGHTS.md`へ適用範囲と例外を記載した
 - [x] 第三者ソースの著作権・ライセンスヘッダーを維持した
 - [ ] リポジトリをprivateのまま最終レビューした

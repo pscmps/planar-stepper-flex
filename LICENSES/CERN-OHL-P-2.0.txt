@@ -8,7 +8,7 @@ hardware designers and to provide a legal tool which supports the
 freedom to use, study, modify, share and distribute hardware designs
 and products based on those designs. Version 2 of the CERN Open
 Hardware Licence comes in three variants: this licence, CERN-OHL-P
-(permissive); and two reciprocal licences: CERN- OHL-W (weakly
+(permissive); and two reciprocal licences: CERN-OHL-W (weakly
 reciprocal) and CERN-OHL-S (strongly reciprocal).
 
 The CERN-OHL-P is copyright CERN 2020. Anyone is welcome to use it, in
@@ -36,8 +36,8 @@ their development.
       application or processing of Covered Source.
 
   1.5 'Make' means to create or configure something, whether by
-     manufacture, assembly, compiling, loading or applying Covered
-     Source or another Product or otherwise.
+      manufacture, assembly, compiling, loading or applying Covered
+      Source or another Product or otherwise.
 
   1.6 'Notice' means copyright, acknowledgement and trademark notices,
       references to the location of any Notices, modification notices
@@ -73,7 +73,7 @@ their development.
       or any other similar right.
 
 
-3 Copying, modifying and Conveying Covered Source
+3 Copying, Modifying and Conveying Covered Source
 
   3.1 You may copy and Convey verbatim copies of Covered Source, in
       any medium, provided You retain all Notices.
@@ -95,11 +95,11 @@ their development.
 
   3.4 You may Convey Covered Source or modified Covered Source under
       licence terms which differ from the terms of this Licence
-      provided that:
+      provided that You:
 
-       a) You comply at all times with subsection 3.3; and
+       a) comply at all times with subsection 3.3; and
 
-       b) You provide a copy of this Licence to anyone to whom You
+       b) provide a copy of this Licence to anyone to whom You
           Convey Covered Source or modified Covered Source.
 
 
@@ -149,7 +149,7 @@ to the Product.
       Licensor hereby grants to You a perpetual, worldwide,
       non-exclusive, no-charge, royalty-free, irrevocable (except as
       stated in this section 6, or where terminated by the Licensor
-      for cause) patent license to Make, have Made, use, offer to
+      for cause) patent licence to Make, have Made, use, offer to
       sell, sell, import, and otherwise transfer the Covered Source
       and Products, where such licence applies only to those patent
       claims licensable by such Licensor that are necessarily
