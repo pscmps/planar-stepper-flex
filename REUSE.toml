@@ -1,0 +1,118 @@
+version = 1
+SPDX-PackageName = "Planar Stepper Flex"
+SPDX-PackageSupplier = "pscmps <https://github.com/pscmps>"
+SPDX-PackageDownloadLocation = "https://github.com/pscmps/planar-stepper-flex"
+
+[[annotations]]
+path = [
+    "hardware/**/*.kicad_pcb",
+    "hardware/**/*.kicad_pro",
+    "hardware/**/*.json",
+    "hardware/**/*.csv",
+    "hardware/**/fp-lib-table",
+    "generator/assets/*.kicad_mod",
+    "manufacturing/**/*.zip",
+    "manufacturing/**/*.csv",
+    "manufacturing/**/*.rpt",
+    "manufacturing/**/SHA256SUMS.txt",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 pscmps"
+SPDX-License-Identifier = "CERN-OHL-P-2.0"
+
+[[annotations]]
+path = [
+    "firmware/pico2-drv8835/CMakeLists.txt",
+    "firmware/pico2-drv8835/src/**",
+    "firmware/pico2-drv8835/include/**",
+    "firmware/pico2-drv8835/tests/**",
+    "firmware/pico2-drv8835/web/**",
+    "firmware/pico2-drv8835/tools/**",
+    "firmware/pico2-drv8835/examples/**",
+    "generator/*.py",
+    "generator/planar_stepper/**",
+    "generator/tests/**",
+    "hardware/**/*.py",
+    "scripts/**",
+    ".gitattributes",
+    ".gitignore",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 pscmps"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = [
+    "LICENSE",
+    "README.md",
+    "AGENTS.md",
+    "PUBLIC_RELEASE_CHECKLIST.md",
+    "RIGHTS.md",
+    "THIRD_PARTY_NOTICES.md",
+    "docs/**",
+    "hardware/**/*.md",
+    "hardware/**/*.png",
+    "hardware/**/*.svg",
+    "manufacturing/LICENSE.md",
+    "manufacturing/**/*.png",
+    "firmware/LICENSE.md",
+    "firmware/pico2-drv8835/README.md",
+    "firmware/pico2-drv8835/docs/**",
+    "generator/LICENSE.md",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 pscmps"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = [
+    "firmware/pico2-drv8835/third_party/pico_examples/dhcpserver.c",
+    "firmware/pico2-drv8835/third_party/pico_examples/dhcpserver.h",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2018-2019 Damien P. George"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = [
+    "firmware/pico2-drv8835/third_party/pico_examples/dnsserver.c",
+    "firmware/pico2-drv8835/third_party/pico_examples/dnsserver.h",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2022 Raspberry Pi (Trading) Ltd."
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = [
+    "hardware/pico2w-drv8835-controller/footprints/official-kicad/RaspberryPi_Pico_W_SMD_HandSolder.kicad_mod",
+    "hardware/pico2w-drv8835-controller/footprints/official-kicad/NOTICE",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "KiCad library contributors"
+SPDX-License-Identifier = "LicenseRef-KiCad-Libraries"
+
+[[annotations]]
+path = [
+    "manufacturing/v0.1.0/firmware/pico2_gcode_drv8835_xy.uf2",
+    "manufacturing/v0.1.0/firmware/pico2_gcode_drv8835_xy_test.uf2",
+]
+precedence = "override"
+SPDX-FileCopyrightText = [
+    "2026 pscmps",
+    "2020 Raspberry Pi (Trading) Ltd.",
+    "2012-2026 Ha Thach (tinyusb.org)",
+]
+SPDX-License-Identifier = "MIT AND LicenseRef-Raspberry-Pi-Pico-SDK-BSD-3-Clause AND LicenseRef-TinyUSB-MIT"
+
+[[annotations]]
+path = "manufacturing/v0.1.0/firmware/pico2w_gcode_drv8835_wifi.uf2"
+precedence = "override"
+SPDX-FileCopyrightText = [
+    "2026 pscmps",
+    "2020 Raspberry Pi (Trading) Ltd.",
+    "2019-2022 George Robotics Pty Ltd",
+    "2001-2002 Swedish Institute of Computer Science",
+    "2012-2026 Ha Thach (tinyusb.org)",
+    "2018-2019 Damien P. George",
+]
+SPDX-License-Identifier = "MIT AND BSD-3-Clause AND LicenseRef-Raspberry-Pi-Pico-SDK-BSD-3-Clause AND LicenseRef-lwIP-BSD-3-Clause AND LicenseRef-TinyUSB-MIT AND LicenseRef-MicroPython-MIT AND LicenseRef-CYW43-Raspberry-Pi"

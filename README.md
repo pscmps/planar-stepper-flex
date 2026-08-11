@@ -2,7 +2,7 @@
 
 プリント配線をモータ巻線として使うXY平面ステッパの試作一式です。Pico 2 W、秋月電子の`AE-DRV8835-S` 4個、2種類の2層FPCを対象にしています。
 
-> 現在は非公開で検証中です。回路・FPC・ファームウェアはいずれも試作品で、連続電流定格を保証していません。公開前にライセンスを決定します。
+> 現在は非公開で検証中です。回路・FPC・ファームウェアはいずれも試作品で、連続電流定格を保証していません。
 
 ## 収録内容
 
@@ -40,4 +40,18 @@ FPC生成器の使い方は[基板生成](docs/board-generation.md)、設計元�
 
 ## ライセンス
 
-現時点ではライセンスを付与していません。公開・再配布・製造利用の前に[権利と公開状態](RIGHTS.md)および[公開前チェックリスト](PUBLIC_RELEASE_CHECKLIST.md)を確認してください。
+このリポジトリは複数ライセンスです。
+
+| 対象 | ライセンス |
+|---|---|
+| ハードウェア設計、FPC、KiCadデータ、Gerberなど | [CERN-OHL-P-2.0](LICENSES/CERN-OHL-P-2.0.txt) |
+| ファームウェア、生成器、プロジェクト独自ソフトウェア | [MIT](LICENSES/MIT.txt) |
+| README、文書、プロジェクト独自の説明画像 | [CC BY 4.0](LICENSES/CC-BY-4.0.txt) |
+
+第三者由来のコード、フットプリント、ライブラリには元のライセンスが適用されます。適用範囲と例外は[ライセンスと権利](RIGHTS.md)、第三者依存は[第三者通知](THIRD_PARTY_NOTICES.md)を参照してください。
+
+## 使用報告は任意です
+
+この設計を使って何か作った場合、作品や写真を教えていただけると嬉しいです。使用報告や連絡は必須ではありません。
+
+If you build, modify, or incorporate this design into a project, the author would be happy to hear about it and see photos of your work. Reporting your use or contacting the author is entirely optional.

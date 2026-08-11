@@ -1,0 +1,23 @@
+Planar Stepper Flexは複数ライセンスで提供されます。
+
+プロジェクト独自のハードウェア設計:
+  CERN Open Hardware Licence Version 2 - Permissive
+  SPDX-License-Identifier: CERN-OHL-P-2.0
+  本文: LICENSES/CERN-OHL-P-2.0.txt
+
+プロジェクト独自のソフトウェア:
+  MIT License
+  SPDX-License-Identifier: MIT
+  本文: LICENSES/MIT.txt
+
+プロジェクト独自の文書・説明画像:
+  Creative Commons Attribution 4.0 International
+  SPDX-License-Identifier: CC-BY-4.0
+  本文: LICENSES/CC-BY-4.0.txt
+
+詳細な適用範囲と例外はRIGHTS.mdを参照してください。第三者由来の
+ファイル、コード、ライブラリ、画像、商標には、それぞれの権利者が
+定める条件が適用されます。THIRD_PARTY_NOTICES.mdとLICENSES/内の
+第三者ライセンス本文を参照してください。
+
+Copyright (c) 2026 pscmps
