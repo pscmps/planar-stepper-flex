@@ -1,5 +1,6 @@
 # 参考資料
 
+- [https://kevinlynagh.com/pcb-stepper/?utm_source=chatgpt.com]
 - [Hackaday: The Two-Dimensional Stepper Motor](https://hackaday.com/2019/05/09/the-two-dimensional-stepper-motor/)
 - [Hackaday.io: 2D Stepper Motor Etched on PCB](https://hackaday.io/project/164507-2d-stepper-motor-etched-on-pcb-micro-manipulator)
 - [秋月電子 AE-DRV8835-S商品ページ](https://akizukidenshi.com/catalog/g/g109848/)
